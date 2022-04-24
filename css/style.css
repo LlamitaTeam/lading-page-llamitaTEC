@@ -198,41 +198,28 @@ img{
     border-radius: 0.5rem;
 }
 
-.button{
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 1rem 3rem;
-    margin-top: 1rem;
-    font-size: 2rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    border-radius: .5rem;
-    width: 100%;
-    text-align: center;
-    border: none;
-}
-
-.button:hover{
-    cursor: pointer;
-    color: gold;
-}
-
 /*us*/
 
 .us{
     background-color: var(--skyblue);
     padding: 5rem;
-    color: var(--white);
+    color: var(--black);
+}
+
+.us_content{
+    box-shadow: 0px 5px 32px -2px rgba(0,0,0,0.27);
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 1rem;  
 }
 
 .us_title{
     text-align: center;
-    
 }
 
 .us_text{
-    text-align: center;
+    text-align: justify;
+    font-size: 2rem;
 }
 
 /*services*/
@@ -271,6 +258,10 @@ img{
     background-color: var(--white);
     padding: 2rem;
     border-radius: 1rem;
+}
+
+.service_content li{
+    text-align: justify;
 }
 
 /*contact*/
@@ -330,4 +321,64 @@ img{
 .footer{
     background-color: var(--darkgrey);
     padding: 2rem;
+}
+
+/*button*/
+
+.press{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a{
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.button{
+    margin-top: 2rem;
+    width: 50rem;
+    height: 3rem;
+    border: none;
+    background-color: var(--white);
+    border-radius: .5rem;
+    box-shadow: inset 0 0 0 0 var(--blue);
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.button:hover{
+    box-shadow: inset 50rem 0 0 0 var(--blue);
+    cursor: pointer;
+}
+
+.button:hover a{
+    color: var(--white);
+}
+
+.button2 a{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.button2{
+    margin-top: 2rem;
+    width: 30rem;
+    height: 3rem;
+    border: none;
+    background-color: var(--blue);
+    border-radius: .5rem;
+    box-shadow: inset 0 0 0 0 var(--skyblue);
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.button2:hover{
+    box-shadow: inset 30rem 0 0 0 var(--skyblue);
+    cursor: pointer;
+}
+
+.button2:hover a{
+    color: yellow;
 }
