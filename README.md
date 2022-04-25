@@ -1,4 +1,4 @@
-# lading-page-llamitaTEC
+# landing-page-llamitaTEC
 
 ## Description
 This repository contains the landing page for the llamitaTEC project
