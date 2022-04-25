@@ -7,4 +7,4 @@ This repository contains the landing page for the llamitaTEC project
 * William’s Romero Moran - U201816224
 
 
-## landing page: https://llamitateam.github.io/lading-page-llamitaTEC/
+## landing page: https://llamitateam.github.io/landing-page-llamitaTEC/
