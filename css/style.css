@@ -338,7 +338,7 @@ img{
 
 .button{
     margin-top: 2rem;
-    width: 50rem;
+    width:20rem;
     height: 3rem;
     border: none;
     background-color: var(--white);
@@ -349,8 +349,17 @@ img{
 }
 
 .button:hover{
-    box-shadow: inset 50rem 0 0 0 var(--blue);
+    box-shadow: inset 20rem 0 0 0 var(--blue);
     cursor: pointer;
+}
+
+@media (min-width: 1280px) {
+    .button{
+        width: 50rem;
+    }
+    .button:hover{
+        box-shadow: inset 50rem 0 0 0 var(--blue);
+    }
 }
 
 .button:hover a{
