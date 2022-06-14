@@ -67,6 +67,10 @@ img{
     text-align: center;
 }
 
+.m-b-3{
+    margin-bottom: 3rem;
+}
+
 .container{
     width: min(90%, 120rem);
     margin: 0 auto;
@@ -93,6 +97,17 @@ img{
 
 .bar{
     text-align: center;
+}
+
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_title{
+    color: black;
 }
 
 @media (min-width: 1280px) {
@@ -123,7 +138,7 @@ img{
 /*main*/
 
 .main{
-    background-image: url(../img/main.jpg);
+    background-image: url(../static/main.jpg);
     height: 80rem;
     background-repeat: no-repeat;
     background-size: cover;
@@ -265,14 +280,21 @@ img{
 }
 
 /*contact*/
-
-.contact{
+.video{
     background-color: var(--skyblue);
     padding: 2rem;
     margin-top: 5rem;
     color: var(--white);
     text-align: center;
-    padding-bottom: 6rem;
+    width: 100%;
+}
+
+.contact{
+    background-color: var(--white);
+    padding: 2rem;
+    margin-top: 5rem;
+    color: var(--white);
+    text-align: center;
 }
 
 .infocontact{
@@ -281,9 +303,10 @@ img{
     align-items: center;
     gap: 3rem;
     box-shadow: 0px 5px 32px -2px rgba(0,0,0,0.27);
-    background-color: var(--white);
+    background-color: var(--skyblue);
     padding: 2rem;
-    border-radius: 1rem;    
+    border-radius: 1rem;
+    margin-bottom: 3rem;
 }
 
 @media (min-width: 1280px) {
@@ -299,7 +322,7 @@ img{
 .icons{
     height: 15rem;
     width: 15rem;
-    background-color: var(--blue);
+    background-color: var(--black);
     border-radius: 50%;
     display: flex;
     justify-content: center;
